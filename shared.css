@@ -22,6 +22,29 @@
 .logo{
     position: relative;
 }
+.profile{
+    position: relative;
+}
+.profile-modal{
+    background-color: rgb(244, 243, 243);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 66px;
+    border-radius: 2px;
+    position: absolute;
+    top: 48px;
+    right: -64px;
+    animation: modal 300ms 200ms;
+    display: none;
+}
+.profile-modal a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 .astu{
     position: absolute;
     left: 8.8%;
@@ -61,4 +84,15 @@
 }
 .main-nav-item a:hover{
     border-bottom: 0.6px solid white;
+}
+
+@keyframes modal{
+    0%{
+        transform:scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
