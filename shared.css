@@ -5,3 +5,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main-header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    padding: 0.8rem;
+    z-index: 100;
+}
+.logo,
+.profile{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+.logo{
+    position: relative;
+}
+.astu{
+    position: absolute;
+    left: 8.8%;
+    color: white;
+    font-size: 27px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile{
+    margin-left: 20px;
+}
+.profile svg{
+    max-width: 40px;
+    max-height: 40px;
+    cursor: pointer;
+}
+.main-nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav-items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.main-nav-item{
+    margin: 0px 8px;
+}
+.main-nav-item a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.main-nav-item a:hover{
+    border-bottom: 0.6px solid white;
+}
