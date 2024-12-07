@@ -14,3 +14,44 @@ body{
     font-size: 2.2rem;
     
 }
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login svg{
+    max-width: 140px;
+    max-height: 140px;
+}
+.login h1{
+    font-size: 2.3rem;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-form div{
+    margin: 10px 0;
+}
+.username label,
+.Password label{
+    font-weight: bold ;
+    font-size:1.5rem;
+    margin-right: 15px;
+}
+#Password{
+    margin-left: 9px;
+}
+#user_name,
+#Password{
+    background-color: burlywood;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.1rem;
+    
+}
