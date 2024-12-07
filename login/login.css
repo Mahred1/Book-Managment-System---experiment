@@ -76,8 +76,8 @@ body{
     top: 100%;
 }
 .main-footer a{
-    font-size: 0.35rem;
+    font-size: 1.3rem;
     margin: auto;
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
