@@ -18,6 +18,25 @@ main{
     margin: 0 0.5rem;
     cursor: pointer;
 }
+.filter-item:hover{
+    color: rgb(190, 159, 118);
+}
 .active{
-    border-bottom: 1.5px  solid rgb(222, 184, 135);
+    border-bottom: 1.5px  solid rgb(229, 190, 138);
+}
+
+.books{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    grid-gap: 2.5rem;
+}
+.book-container{
+    background-color: rgb(219, 219, 219);
+    min-height: max-content;
+    border-radius: 0.2rem;
+    padding: 5px;
+    box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.2);
+    position: relative;
+
 }
