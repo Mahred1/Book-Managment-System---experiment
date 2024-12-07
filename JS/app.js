@@ -5,7 +5,7 @@ filter.addEventListener("click",(event)=>{
     if (!event.target.classList.contains("active")) {
        document.querySelector(".active").classList.remove("active");
        event.target.classList.add("active");
-       event.stopPropagation();
+      
     }
     const filterValue= event.target.getAttribute("data");
     books.forEach(book=>{
@@ -17,4 +17,5 @@ filter.addEventListener("click",(event)=>{
             book.classList.add("hide");
         }
     })
+    event.stopPropagation;
 })
