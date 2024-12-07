@@ -4,13 +4,13 @@ body{
     background-position: center;
     background-size: cover;
     color: white;
-    min-height: 100vh;
+    min-height: 93vh;
 }
 .main-header{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 6rem;
+    margin-top: 3rem;
 }
 .main-header h1{
     font-size: 2.2rem;
@@ -23,11 +23,13 @@ body{
     align-items: center;
 }
 .login svg{
-    max-width: 140px;
-    max-height: 140px;
+    max-width: 120px;
+    max-height: 120px;
 }
 .login h1{
     font-size: 2.3rem;
+    margin-bottom: 2rem;
+    margin-top: 5px;
 }
 .login-form{
     display: flex;
@@ -53,7 +55,7 @@ body{
     border: none;
     border-radius: 0.2rem;
     outline: none;
-    padding: 0.6rem 1.2rem;
+    padding: 0.6rem 1.8rem;
     font-size: 1.1rem; 
 }
 .login-btn{
@@ -74,6 +76,7 @@ body{
     display: flex;
     position: sticky;
     top: 100%;
+    margin-bottom: .6rem;
 }
 .main-footer a{
     font-size: 1.3rem;
