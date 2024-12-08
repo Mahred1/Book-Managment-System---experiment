@@ -2,6 +2,7 @@ const books= document.querySelectorAll(".book-container");
 const filter= document.querySelector(".filter-items");
 const profile = document.querySelector(".profile");
 const profileModal= document.querySelector(".profile-modal");
+const backDrop=document.querySelector(".back-drop");
 
 filter.addEventListener("click",(event)=>{
     if (!event.target.classList.contains("active") && event.target.classList.contains("filter-item")) {
@@ -26,4 +27,10 @@ filter.addEventListener("click",(event)=>{
 
 profile.addEventListener("click",()=>{
     profileModal.classList.toggle("active-modal");
+    backDrop.classList.add("back-drop_active");
+})
+
+backDrop.addEventListener("click",()=>{
+    profileModal.classList.remove("active-modal");
+    backDrop.classList.remove("back-drop_active");
 })
