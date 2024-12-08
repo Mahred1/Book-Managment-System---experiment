@@ -27,7 +27,7 @@ filter.addEventListener("click",(event)=>{
 
 profile.addEventListener("click",()=>{
     profileModal.classList.toggle("active-modal");
-    backDrop.classList.add("back-drop_active");
+    backDrop.classList.toggle("back-drop_active");
 })
 
 backDrop.addEventListener("click",()=>{
